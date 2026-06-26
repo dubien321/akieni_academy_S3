@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f8fafc;
+    min-height: 100vh;
+    
+}
+
+article {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;          
+    border-bottom: 6px solid #3b82f6;
+}
+
+section {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4rem;              
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+    background: linear-gradient(to right, #facc15, #fbbf24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+section p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #cbd5e1;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.boutons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.btn-primaire,.btn-secondaire {
+    display: inline-block;
+    padding: 14px 36px;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primaire {
+    background: #3b82f6;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+}
+
+.btn-primaire:hover {
+    background: #2563eb;
+    transform: scale(1.04);
+    box-shadow: 0 12px 28px rgba(59, 130, 246, 0.5);
+}
+
+.btn-secondaire {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondaire:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #ffffff;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 30px;
+}
+
+.hero-stats strong {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #facc15;
+    display: block;
+    margin-bottom: 4px;
+}
+
+
+footer{
+    font-family:'Inter', sans-serif; 
+    margin-top: 40px;
+    background: #e2e8f0;
+    padding: 12px 24px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    color: #1e293b;
+    text-align: center;
+}
